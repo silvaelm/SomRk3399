@@ -360,6 +360,10 @@
     [
       "e3379cb9-adac-44a8-8efe-982adb05008b",
       "EMMC"
+    ],
+    [
+      "d8621a64-13ad-4cb1-8fd7-9f88928bb5b5",
+      "WIFI"
     ]
   ],
   "text_variables": {
