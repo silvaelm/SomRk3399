@@ -2,9 +2,32 @@
 
   (uuid 57e23472-9140-4767-ac16-982c99f37928)
 
-  (paper "A4")
+  (paper "A3")
+
+  (title_block
+    (title "CPU circuit")
+    (date "2023-04-05")
+    (rev "A")
+  )
 
   (lib_symbols
   )
 
+
+  (sheet (at 316.23 163.83) (size 38.1 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fa12c0f4-e580-454c-bd01-df32ffe281bd)
+    (property "Sheetname" "Power, Ground & decoupling Processor" (at 316.23 163.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power_processor.kicad_sch" (at 316.23 203.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
+        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b" (page "9"))
+      )
+    )
+  )
 )

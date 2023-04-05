@@ -364,6 +364,10 @@
     [
       "d8621a64-13ad-4cb1-8fd7-9f88928bb5b5",
       "WIFI"
+    ],
+    [
+      "fa12c0f4-e580-454c-bd01-df32ffe281bd",
+      "Power, Ground & decoupling Processor"
     ]
   ],
   "text_variables": {

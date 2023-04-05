@@ -3,4 +3,5 @@
   (lib (name "SOM_Library")(type "KiCad")(uri "${KIPRJMOD}/SOM_Library.kicad_sym")(options "")(descr ""))
   (lib (name "EMMC16G-TB28-A01U")(type "KiCad")(uri "/media/cajuru_SSD_2/cabure_kicad_project/lib_global_repository/SnapEda/EMMC16G-TB28-A01U/EMMC16G-TB28-A01U.kicad_sym")(options "")(descr ""))
   (lib (name "LD39050PUR")(type "KiCad")(uri "/media/cajuru_SSD_2/cabure_kicad_project/lib_global_repository/SnapEda/LD39050PUR/LD39050PUR.kicad_sym")(options "")(descr ""))
+  (lib (name "RK3399")(type "KiCad")(uri "/media/cajuru_SSD_2/cabure_kicad_project/lib_global_repository/SnapEda/RK3399/RK3399.kicad_sym")(options "")(descr ""))
 )
