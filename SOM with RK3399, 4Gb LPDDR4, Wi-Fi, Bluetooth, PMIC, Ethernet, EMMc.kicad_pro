@@ -343,7 +343,7 @@
     ],
     [
       "37969e04-0578-442c-acd0-a0a26625ce90",
-      "RAM Memory"
+      "LPDDR Memory Bank"
     ],
     [
       "0a565a6e-2c86-4848-a14d-086489104cce",
@@ -368,6 +368,14 @@
     [
       "fa12c0f4-e580-454c-bd01-df32ffe281bd",
       "Power, Ground & decoupling Processor"
+    ],
+    [
+      "795631a3-686a-433e-aad4-be22e1f76263",
+      "LPDDR MEMORY DRIVER"
+    ],
+    [
+      "e163d07d-59b7-4159-82e0-7c93c9aad2ec",
+      "LPDDR Chip 2"
     ]
   ],
   "text_variables": {
