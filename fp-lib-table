@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "EMMC16G-TB28-A01U")(type "KiCad")(uri "/media/cajuru_SSD_2/cabure_kicad_project/lib_global_repository/SnapEda/EMMC16G-TB28-A01U")(options "")(descr ""))
+)
