@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 062c83ca-4c5a-498c-bc1c-fa43f9a444f4)
+
+  (paper "A3")
+
+  (title_block
+    (title "SOM Interfaces")
+    (date "2023-06-05")
+    (rev "A")
+  )
+
+  (lib_symbols
+  )
+
+)
