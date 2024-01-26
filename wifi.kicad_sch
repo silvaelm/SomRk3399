@@ -1126,7 +1126,7 @@
   (symbol (lib_id "emilio_lib:TXB0108NMER") (at 59.69 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 019d8c1b-0968-496a-a5bb-fc7bc6ed05d1)
-    (property "Reference" "U4" (at 59.69 48.26 0)
+    (property "Reference" "U5" (at 59.69 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TXB0108NMER" (at 59.69 78.74 0)
@@ -1161,7 +1161,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1170,7 +1170,7 @@
   (symbol (lib_id "Device:C_Small") (at 119.38 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0604e47f-895e-4079-9449-557ebcdeffb8)
-    (property "Reference" "C32" (at 121.92 159.3913 0)
+    (property "Reference" "C70" (at 121.92 159.3913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 121.92 161.9313 0)
@@ -1186,9 +1186,6 @@
     (pin "2" (uuid f310ed64-d213-45d4-a71c-d95feebdd73a))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C70") (unit 1)
         )
@@ -1199,7 +1196,7 @@
   (symbol (lib_id "LD39050PUR:LD39050PUR") (at 96.52 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c95d80d-aabe-4183-91bc-58b7ee82b543)
-    (property "Reference" "U6" (at 96.52 147.32 0)
+    (property "Reference" "U7" (at 96.52 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LD39050PUR" (at 96.52 171.45 0)
@@ -1230,7 +1227,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "U6") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1239,7 +1236,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 241.3 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f1d3166-8ada-47e6-8b17-a999d93dcc65)
-    (property "Reference" "#PWR017" (at 241.3 95.25 0)
+    (property "Reference" "#PWR044" (at 241.3 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.3 93.98 0)
@@ -1254,11 +1251,8 @@
     (pin "1" (uuid 7a2104eb-9400-4a5c-9027-476b451a58c7))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -1267,7 +1261,7 @@
   (symbol (lib_id "power:GND") (at 90.17 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2331e2d8-a792-4b55-a5dc-f11f2d318877)
-    (property "Reference" "#PWR034" (at 90.17 124.46 0)
+    (property "Reference" "#PWR035" (at 90.17 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 90.17 123.19 0)
@@ -1283,7 +1277,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1292,7 +1286,7 @@
   (symbol (lib_id "power:GND") (at 40.64 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 243c8de2-bc26-4cd9-80d9-eb6fe570faa8)
-    (property "Reference" "#PWR029" (at 40.64 124.46 0)
+    (property "Reference" "#PWR030" (at 40.64 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 123.19 0)
@@ -1308,7 +1302,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1317,7 +1311,7 @@
   (symbol (lib_id "power:GND") (at 21.59 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 299f6204-f0fd-4313-a3d1-c9773c7eaf3e)
-    (property "Reference" "#PWR027" (at 21.59 87.63 0)
+    (property "Reference" "#PWR028" (at 21.59 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 21.59 86.36 0)
@@ -1333,7 +1327,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1342,7 +1336,7 @@
   (symbol (lib_id "power:GND") (at 74.93 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b6f2ef8-32d0-4cb6-af21-0deb085bad5d)
-    (property "Reference" "#PWR031" (at 74.93 124.46 0)
+    (property "Reference" "#PWR032" (at 74.93 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 123.19 0)
@@ -1358,7 +1352,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1395,7 +1389,7 @@
   (symbol (lib_id "power:GND") (at 80.01 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bdb4de1-c7b9-466f-821d-fc8e89609458)
-    (property "Reference" "#PWR033" (at 80.01 124.46 0)
+    (property "Reference" "#PWR034" (at 80.01 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 123.19 0)
@@ -1411,7 +1405,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -1420,7 +1414,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 119.38 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52f86a0c-cdb6-4ef7-855d-d5c95403c4ab)
-    (property "Reference" "#PWR017" (at 119.38 173.99 0)
+    (property "Reference" "#PWR038" (at 119.38 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 172.72 0)
@@ -1435,11 +1429,8 @@
     (pin "1" (uuid dad8731d-5a38-4ec0-aaf7-6564205afb7b))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1448,7 +1439,7 @@
   (symbol (lib_id "power:GND") (at 99.06 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5692e476-8e9f-4d29-9308-4d587bc08ab6)
-    (property "Reference" "#PWR035" (at 99.06 87.63 0)
+    (property "Reference" "#PWR036" (at 99.06 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 99.06 86.36 0)
@@ -1464,7 +1455,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -1473,7 +1464,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 189.23 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f03b4b8-1711-4959-b28a-e0621c8c7411)
-    (property "Reference" "R3" (at 191.77 78.7399 0)
+    (property "Reference" "R12" (at 191.77 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 191.77 81.2799 0)
@@ -1489,9 +1480,6 @@
     (pin "2" (uuid 735574cd-92a2-4219-b347-d8b98fa8e0f5))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "R3") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "R12") (unit 1)
         )
@@ -1502,7 +1490,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 66.04 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64c159da-3ca5-4814-a0f8-1c67df935025)
-    (property "Reference" "#PWR017" (at 66.04 173.99 0)
+    (property "Reference" "#PWR031" (at 66.04 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 172.72 0)
@@ -1517,11 +1505,8 @@
     (pin "1" (uuid 13714aea-4f41-4ed9-ad3e-a3e85399794c))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1530,7 +1515,7 @@
   (symbol (lib_id "power:GND") (at 29.21 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 724c706c-85f4-43de-a4c6-ad352e3a6bee)
-    (property "Reference" "#PWR028" (at 29.21 87.63 0)
+    (property "Reference" "#PWR029" (at 29.21 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 86.36 0)
@@ -1546,7 +1531,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1555,7 +1540,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 175.26 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75f1b3c8-52c8-45c7-b39c-4f7a90ed8d27)
-    (property "Reference" "#PWR017" (at 175.26 124.46 0)
+    (property "Reference" "#PWR040" (at 175.26 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 123.19 0)
@@ -1570,11 +1555,8 @@
     (pin "1" (uuid 2653df96-d074-47bf-8625-4a772d969b0f))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1583,7 +1565,7 @@
   (symbol (lib_id "Device:C_Small") (at 90.17 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7620b636-52c5-4b8d-82d5-6e6f701c2d72)
-    (property "Reference" "C32" (at 92.71 114.9413 0)
+    (property "Reference" "C68" (at 92.71 114.9413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 92.71 117.4813 0)
@@ -1599,9 +1581,6 @@
     (pin "2" (uuid aed7d789-e28d-4993-b738-3cecd3c675a6))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C68") (unit 1)
         )
@@ -1612,7 +1591,7 @@
   (symbol (lib_id "power:GND") (at 182.88 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7d1ba8dd-e99b-42b1-a010-cdd837279ada)
-    (property "Reference" "#PWR040" (at 182.88 106.68 0)
+    (property "Reference" "#PWR041" (at 182.88 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 105.41 0)
@@ -1628,7 +1607,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -1637,7 +1616,7 @@
   (symbol (lib_id "Device:C_Small") (at 99.06 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7fac7a94-1033-486e-a9ad-5c1022d2e3c1)
-    (property "Reference" "C47" (at 101.6 65.4113 0)
+    (property "Reference" "C69" (at 101.6 65.4113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 101.6 67.9513 0)
@@ -1653,9 +1632,6 @@
     (pin "2" (uuid 7eb7fa13-daa3-4af5-9d7b-6dbec6c22a7f))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C47") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C69") (unit 1)
         )
@@ -1666,7 +1642,7 @@
   (symbol (lib_id "Device:C_Small") (at 21.59 66.04 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 830e6133-425e-4340-b8b8-cc9c8d4ab780)
-    (property "Reference" "C47" (at 19.05 65.4113 0)
+    (property "Reference" "C63" (at 19.05 65.4113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 19.05 67.9513 0)
@@ -1682,9 +1658,6 @@
     (pin "2" (uuid 014d6ca2-220a-4351-97ef-4f0387bf44c9))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C47") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C63") (unit 1)
         )
@@ -1695,7 +1668,7 @@
   (symbol (lib_id "power:GND") (at 76.2 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ec2e97d-3685-4e40-86d1-9d64d07625ea)
-    (property "Reference" "#PWR032" (at 76.2 87.63 0)
+    (property "Reference" "#PWR033" (at 76.2 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 86.36 0)
@@ -1711,7 +1684,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -1720,7 +1693,7 @@
   (symbol (lib_id "Device:C_Small") (at 29.21 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 943df00f-e564-4788-b234-4de1f0d88efd)
-    (property "Reference" "C47" (at 31.75 78.1113 0)
+    (property "Reference" "C64" (at 31.75 78.1113 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 31.75 80.6513 0)
@@ -1736,9 +1709,6 @@
     (pin "2" (uuid b1cc94fa-d049-4b68-b5ce-6c8b18a67718))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C47") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C64") (unit 1)
         )
@@ -1749,7 +1719,7 @@
   (symbol (lib_id "emilio_lib:RT9193-18GU5") (at 63.5 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97634423-57c6-4a8f-a63f-ef1584e1c22a)
-    (property "Reference" "U5" (at 63.5 107.95 0)
+    (property "Reference" "U6" (at 63.5 107.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RT9193-18GU5" (at 63.5 118.11 0)
@@ -1769,7 +1739,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "U5") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -1778,7 +1748,7 @@
   (symbol (lib_id "Device:C_Small") (at 241.3 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97faa90a-bf92-4da8-81db-98f5f8387a01)
-    (property "Reference" "C32" (at 243.84 83.8262 0)
+    (property "Reference" "C73" (at 243.84 83.8262 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (at 243.84 86.3662 0)
@@ -1794,9 +1764,6 @@
     (pin "2" (uuid b7dd7705-17ec-468d-976c-2708a82eb61b))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C73") (unit 1)
         )
@@ -1807,7 +1774,7 @@
   (symbol (lib_id "Device:C_Small") (at 266.7 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a4d4a420-db22-43ba-8355-b811f4fd8a58)
-    (property "Reference" "C36" (at 269.24 84.4613 0)
+    (property "Reference" "C75" (at 269.24 84.4613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 269.24 87.0013 0)
@@ -1823,9 +1790,6 @@
     (pin "2" (uuid 89543302-020f-4be5-9d3a-41738e7ddb87))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C36") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C75") (unit 1)
         )
@@ -1836,7 +1800,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 29.21 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a72a30a5-470e-47e6-9c6f-f465cd3aff3f)
-    (property "Reference" "R3" (at 31.75 64.7699 0)
+    (property "Reference" "R8" (at 31.75 64.7699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 31.75 67.3099 0)
@@ -1852,9 +1816,6 @@
     (pin "2" (uuid 373b09a1-3ccf-4160-b4b9-7840531f7e22))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "R3") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "R8") (unit 1)
         )
@@ -1865,7 +1826,7 @@
   (symbol (lib_id "Device:C_Small") (at 40.64 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bc350784-46cb-4648-bb85-0ea300665821)
-    (property "Reference" "C32" (at 43.18 113.6713 0)
+    (property "Reference" "C65" (at 43.18 113.6713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 43.18 116.2113 0)
@@ -1881,9 +1842,6 @@
     (pin "2" (uuid 57d4b979-2f78-46c9-965c-070f5bcc7e64))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C65") (unit 1)
         )
@@ -1894,7 +1852,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 137.16 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid beee7a7a-92c4-4697-b889-80d3e30e00a4)
-    (property "Reference" "R3" (at 139.7 161.925 0)
+    (property "Reference" "R10" (at 139.7 161.925 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "12K" (at 139.7 164.465 0)
@@ -1910,9 +1868,6 @@
     (pin "2" (uuid 507f152a-042a-42aa-bad3-bf1909258a15))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "R3") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "R10") (unit 1)
         )
@@ -1923,7 +1878,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 137.16 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2852b40-4551-4d90-b9fd-e9c9c8ba2c25)
-    (property "Reference" "R3" (at 139.7 153.035 0)
+    (property "Reference" "R9" (at 139.7 153.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "44K" (at 139.7 155.575 0)
@@ -1939,9 +1894,6 @@
     (pin "2" (uuid 4c01747f-3cda-4c3a-9975-58eb09b00d38))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "R3") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "R9") (unit 1)
         )
@@ -1952,7 +1904,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 113.03 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c5a97bd4-763f-406e-bb2c-a2d0c0ec368f)
-    (property "Reference" "#PWR017" (at 113.03 173.99 0)
+    (property "Reference" "#PWR037" (at 113.03 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 113.03 172.72 0)
@@ -1967,11 +1919,8 @@
     (pin "1" (uuid 0ee51ec1-f851-4f2f-b7bd-5f12050f8ad4))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -1980,7 +1929,7 @@
   (symbol (lib_id "Device:C_Small") (at 182.88 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccf1ba6d-659f-4984-b8ac-373c7427a0e7)
-    (property "Reference" "C34" (at 185.42 97.1613 0)
+    (property "Reference" "C71" (at 185.42 97.1613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 185.42 99.7013 0)
@@ -1996,9 +1945,6 @@
     (pin "2" (uuid 993aadaa-ff2b-438d-bc02-e41d62ffa8d6))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C34") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C71") (unit 1)
         )
@@ -2009,7 +1955,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 163.83 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ccf4f741-7376-4eaf-aa28-3cf3cc9141a6)
-    (property "Reference" "R3" (at 166.37 97.7899 0)
+    (property "Reference" "R11" (at 166.37 97.7899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10K" (at 166.37 100.3299 0)
@@ -2025,9 +1971,6 @@
     (pin "2" (uuid c5f31dd3-e80f-4e24-aa58-ee7eb99fbed9))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "R3") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "R11") (unit 1)
         )
@@ -2038,7 +1981,7 @@
   (symbol (lib_id "Device:C_Small") (at 66.04 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd6d3296-71fa-42ff-a342-3ad4fc56664a)
-    (property "Reference" "C32" (at 68.58 159.3913 0)
+    (property "Reference" "C66" (at 68.58 159.3913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 68.58 161.9313 0)
@@ -2054,9 +1997,6 @@
     (pin "2" (uuid 6f68b8f0-4ed5-493b-808f-637a583fe698))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C66") (unit 1)
         )
@@ -2067,7 +2007,7 @@
   (symbol (lib_id "Device:C_Small") (at 189.23 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d06ac3c0-bdfd-43ef-807d-c049502f3785)
-    (property "Reference" "C47" (at 191.77 85.7313 0)
+    (property "Reference" "C72" (at 191.77 85.7313 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 191.77 88.2713 0)
@@ -2083,9 +2023,6 @@
     (pin "2" (uuid 29f73e58-1e51-4d9e-947c-9ca3a5a26d3d))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C47") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C72") (unit 1)
         )
@@ -2096,7 +2033,7 @@
   (symbol (lib_id "emilio_lib:WF60") (at 217.17 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df6fc07e-b2e3-4f02-bf5c-3d5a1ccc920a)
-    (property "Reference" "U7" (at 215.9 49.53 0)
+    (property "Reference" "U8" (at 215.9 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "WF60" (at 217.17 81.28 0)
@@ -2129,7 +2066,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "U7") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -2138,7 +2075,7 @@
   (symbol (lib_id "power:GND") (at 189.23 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1043640-04ba-49c7-a2d1-5ed02bb52b83)
-    (property "Reference" "#PWR041" (at 189.23 95.25 0)
+    (property "Reference" "#PWR042" (at 189.23 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 93.98 0)
@@ -2154,7 +2091,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -2163,7 +2100,7 @@
   (symbol (lib_id "Device:C_Small") (at 254 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1f5b2aa-22d9-4391-bb52-c89746c9428e)
-    (property "Reference" "C34" (at 256.54 84.4613 0)
+    (property "Reference" "C74" (at 256.54 84.4613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 256.54 87.0013 0)
@@ -2179,9 +2116,6 @@
     (pin "2" (uuid b3c71d01-349e-476d-a648-d62a56519a46))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C34") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
           (reference "C74") (unit 1)
         )
@@ -2218,7 +2152,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 137.16 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8539a8b-2990-4233-8391-f91c2a7dbe24)
-    (property "Reference" "#PWR017" (at 137.16 173.99 0)
+    (property "Reference" "#PWR039" (at 137.16 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 172.72 0)
@@ -2233,11 +2167,8 @@
     (pin "1" (uuid 47047a2f-7970-4c1d-a8d1-338d153cf144))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -2246,7 +2177,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 232.41 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eabc538e-380e-4651-923b-87f1b08f4030)
-    (property "Reference" "#PWR017" (at 232.41 95.25 0)
+    (property "Reference" "#PWR043" (at 232.41 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 232.41 93.98 0)
@@ -2261,11 +2192,8 @@
     (pin "1" (uuid 915c57bd-ccfa-4812-957b-df0742f9c0b8))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/d8621a64-13ad-4cb1-8fd7-9f88928bb5b5"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )

@@ -487,68 +487,7 @@
       "/DDR1_DQS2P": "lpdd_dqs_100Ω",
       "/DDR1_DQS3N": "lpdd_dqs_100Ω",
       "/DDR1_DQS3P": "lpdd_dqs_100Ω",
-      "/DDR1_RST": "lpdd_rst",
-      "/LPDDR Memory Bank/DDR0_A0": "lpdd_ca_50Ω",
-      "/LPDDR Memory Bank/DDR0_A1": "lpdd_ca_50Ω",
-      "/LPDDR Memory Bank/DDR0_A2": "lpdd_ca_50Ω",
-      "/LPDDR Memory Bank/DDR0_A3": "lpdd_ca_50Ω",
-      "/LPDDR Memory Bank/DDR0_A4": "lpdd_ca_50Ω",
-      "/LPDDR Memory Bank/DDR0_A5": "lpdd_ca_50Ω",
-      "/LPDDR Memory Bank/DDR0_CKE0": "lpdd_clk_100Ω",
-      "/LPDDR Memory Bank/DDR0_CKE1": "lpdd_clk_100Ω",
-      "/LPDDR Memory Bank/DDR0_CLKA_N": "lpdd_clk_100Ω",
-      "/LPDDR Memory Bank/DDR0_CLKA_P": "lpdd_clk_100Ω",
-      "/LPDDR Memory Bank/DDR0_CLKB_N": "lpdd_clk_100Ω",
-      "/LPDDR Memory Bank/DDR0_CLKB_P": "lpdd_clk_100Ω",
-      "/LPDDR Memory Bank/DDR0_CS0A": "lpdd_cs_50Ω",
-      "/LPDDR Memory Bank/DDR0_CS0B": "lpdd_cs_50Ω",
-      "/LPDDR Memory Bank/DDR0_CS1A": "lpdd_cs_50Ω",
-      "/LPDDR Memory Bank/DDR0_CS1B": "lpdd_cs_50Ω",
-      "/LPDDR Memory Bank/DDR0_D0": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D1": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D10": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D11": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D12": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D13": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D14": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D15": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D16": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D17": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D18": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D19": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D2": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D20": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D21": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D22": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D23": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D24": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D25": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D26": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D27": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D28": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D29": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D3": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D30": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D31": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D4": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D5": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D6": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D7": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D8": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_D9": "lpdd_data_50Ω",
-      "/LPDDR Memory Bank/DDR0_DM0": "lpdd_dm_50Ω",
-      "/LPDDR Memory Bank/DDR0_DM1": "lpdd_dm_50Ω",
-      "/LPDDR Memory Bank/DDR0_DM2": "lpdd_dm_50Ω",
-      "/LPDDR Memory Bank/DDR0_DM3": "lpdd_dm_50Ω",
-      "/LPDDR Memory Bank/DDR0_DQS0_N": "lpdd_dqs_100Ω",
-      "/LPDDR Memory Bank/DDR0_DQS0_P": "lpdd_dqs_100Ω",
-      "/LPDDR Memory Bank/DDR0_DQS1_N": "lpdd_dqs_100Ω",
-      "/LPDDR Memory Bank/DDR0_DQS1_P": "lpdd_dqs_100Ω",
-      "/LPDDR Memory Bank/DDR0_DQS2_N": "lpdd_dqs_100Ω",
-      "/LPDDR Memory Bank/DDR0_DQS2_P": "lpdd_dqs_100Ω",
-      "/LPDDR Memory Bank/DDR0_DQS3_N": "lpdd_dqs_100Ω",
-      "/LPDDR Memory Bank/DDR0_DQS3_P": "lpdd_dqs_100Ω",
-      "/LPDDR Memory Bank/DDR0_RST": "lpdd_rst"
+      "/DDR1_RST": "lpdd_rst"
     },
     "netclass_patterns": []
   },
@@ -622,7 +561,7 @@
     ],
     [
       "0a565a6e-2c86-4848-a14d-086489104cce",
-      "PMIC"
+      "PMIC & Power Supplies"
     ],
     [
       "953243b9-b2b4-4528-ba6d-8dbe67901b3e",
@@ -653,12 +592,12 @@
       "Block Diagram"
     ],
     [
-      "541fb6c5-767d-46f7-8ad4-d30949cecd96",
-      "SDMMC Processor Side"
-    ],
-    [
       "295f75bd-a34e-45d3-a45a-dcea5d2304d8",
       "EMMC Processor Side"
+    ],
+    [
+      "541fb6c5-767d-46f7-8ad4-d30949cecd96",
+      "SDMMC Processor Side"
     ],
     [
       "378b05e7-c2ef-40e0-a128-61b7ebe380fa",
@@ -707,6 +646,14 @@
     [
       "688b6d0b-18f1-4707-9e80-500dc502a6ab",
       "HDMI-CEC&GPIO&UART2 Processor Side"
+    ],
+    [
+      "56225909-9092-4616-bebf-92da5d9cb495",
+      "SDMMC0"
+    ],
+    [
+      "e8d363d7-6535-4cbb-a295-72953e997438",
+      "PMU & MISC CONTROLLER"
     ]
   ],
   "text_variables": {

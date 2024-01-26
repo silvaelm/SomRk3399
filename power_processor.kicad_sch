@@ -7218,7 +7218,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 219.71 54.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00f416ec-58cf-43ef-b8c2-d902981a43bc)
-    (property "Reference" "#PWR048" (at 219.71 60.96 0)
+    (property "Reference" "#PWR052" (at 219.71 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.71 59.69 0)
@@ -7234,7 +7234,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -7243,7 +7243,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 306.07 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 036ce4ad-7405-46c1-a2a9-fc5783ad90a7)
-    (property "Reference" "#PWR047" (at 306.07 100.33 0)
+    (property "Reference" "#PWR053" (at 306.07 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 306.07 99.06 0)
@@ -7259,7 +7259,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -8141,7 +8141,7 @@
   (symbol (lib_id "Device:C_Small") (at 247.65 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 049f79c3-fc21-43eb-a52d-a38cbf6047e4)
-    (property "Reference" "C6" (at 250.19 234.9562 0)
+    (property "Reference" "C98" (at 250.19 234.9562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 250.19 237.4962 0)
@@ -8157,9 +8157,6 @@
     (pin "2" (uuid 8170b722-0c96-4c6d-9879-4b94a62a2d80))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C6") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C98") (unit 1)
         )
@@ -8170,7 +8167,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 97.79 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a446a2c-f54c-46f2-80ac-b2b4d6c6b380)
-    (property "Reference" "#PWR018" (at 97.79 266.7 0)
+    (property "Reference" "#PWR048" (at 97.79 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 265.43 0)
@@ -8186,7 +8183,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -8195,7 +8192,7 @@
   (symbol (lib_id "Device:C_Small") (at 311.15 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f7ea249-b1c8-468e-8acb-99920fadb0a1)
-    (property "Reference" "C15" (at 313.69 235.5913 0)
+    (property "Reference" "C114" (at 313.69 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 313.69 238.1313 0)
@@ -8211,9 +8208,6 @@
     (pin "2" (uuid b0701174-7be5-47c7-8629-9a66bd91f35a))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C15") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C114") (unit 1)
         )
@@ -8224,7 +8218,7 @@
   (symbol (lib_id "Device:C_Small") (at 344.17 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11e0d295-9a32-484a-b655-a7bc03fc7365)
-    (property "Reference" "C38" (at 346.71 89.5413 0)
+    (property "Reference" "C119" (at 346.71 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 346.71 92.0813 0)
@@ -8240,9 +8234,6 @@
     (pin "2" (uuid ab6adb02-cc7d-4676-959e-8c9d20100fa8))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C38") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C119") (unit 1)
         )
@@ -8253,7 +8244,7 @@
   (symbol (lib_id "Device:C_Small") (at 394.97 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12051822-b0f4-4aec-a4bc-51a0ab3c8085)
-    (property "Reference" "C46" (at 397.51 89.5413 0)
+    (property "Reference" "C127" (at 397.51 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 397.51 92.0813 0)
@@ -8269,9 +8260,6 @@
     (pin "2" (uuid 226245b0-350e-45cb-9027-7c21257cbef1))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C46") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C127") (unit 1)
         )
@@ -9155,7 +9143,7 @@
   (symbol (lib_id "Device:C_Small") (at 298.45 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1eedd6d0-6e21-47fe-946d-0fdd276a0642)
-    (property "Reference" "C30" (at 300.99 235.5913 0)
+    (property "Reference" "C110" (at 300.99 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 300.99 238.1313 0)
@@ -9171,9 +9159,6 @@
     (pin "2" (uuid a5787b25-787d-4565-991a-236ff942d038))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C30") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C110") (unit 1)
         )
@@ -9184,7 +9169,7 @@
   (symbol (lib_id "Device:C_Small") (at 234.95 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2063cdbb-2346-4dfb-b814-a7a0e06fe553)
-    (property "Reference" "C6" (at 237.49 234.9562 0)
+    (property "Reference" "C95" (at 237.49 234.9562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 237.49 237.4962 0)
@@ -9200,9 +9185,6 @@
     (pin "2" (uuid 6dd98707-14be-48b8-b615-03e0e8107d44))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C6") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C95") (unit 1)
         )
@@ -9213,7 +9195,7 @@
   (symbol (lib_id "Device:C_Small") (at 257.81 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20c49331-f580-494a-a47c-19d07e2e78bb)
-    (property "Reference" "C38" (at 260.35 50.1713 0)
+    (property "Reference" "C100" (at 260.35 50.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 260.35 52.7113 0)
@@ -9229,9 +9211,6 @@
     (pin "2" (uuid f347e422-c7bc-4687-b29d-c696a3756e09))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C38") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C100") (unit 1)
         )
@@ -9242,7 +9221,7 @@
   (symbol (lib_id "Device:C_Small") (at 331.47 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d4c5590-7e67-4dd6-9f84-a42e48d4d516)
-    (property "Reference" "C36" (at 334.01 89.5413 0)
+    (property "Reference" "C117" (at 334.01 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 334.01 92.0813 0)
@@ -9258,9 +9237,6 @@
     (pin "2" (uuid 6541c10e-fc65-44a7-ba10-0f11ac3ee557))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C36") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C117") (unit 1)
         )
@@ -9271,7 +9247,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 180.34 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d7892c6-cdfb-4e1b-979e-8da31f41b873)
-    (property "Reference" "#PWR045" (at 180.34 156.21 0)
+    (property "Reference" "#PWR050" (at 180.34 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 154.94 0)
@@ -9287,7 +9263,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -9296,7 +9272,7 @@
   (symbol (lib_id "Device:C_Small") (at 323.85 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 33fab043-3164-4d77-af75-7c42df7180d3)
-    (property "Reference" "C18" (at 326.39 235.5913 0)
+    (property "Reference" "C116" (at 326.39 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 326.39 238.1313 0)
@@ -9312,9 +9288,6 @@
     (pin "2" (uuid 33086643-d6b4-4592-bb09-6894bf72986a))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C18") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C116") (unit 1)
         )
@@ -9325,7 +9298,7 @@
   (symbol (lib_id "Device:C_Small") (at 349.25 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 344d68ed-b534-4407-a88f-4384b4f1c7c6)
-    (property "Reference" "C24" (at 351.79 235.5913 0)
+    (property "Reference" "C120" (at 351.79 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 351.79 238.1313 0)
@@ -9341,9 +9314,6 @@
     (pin "2" (uuid 54164dfe-d8c4-40a0-b43f-96a8c14fb9ed))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C24") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C120") (unit 1)
         )
@@ -9354,7 +9324,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 26.67 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38a25d26-127d-49f3-b04b-797a077c8c08)
-    (property "Reference" "#PWR02" (at 26.67 266.7 0)
+    (property "Reference" "#PWR045" (at 26.67 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 265.43 0)
@@ -9370,7 +9340,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -9379,7 +9349,7 @@
   (symbol (lib_id "Device:C_Small") (at 184.15 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3ffd712a-eb59-4868-8aa3-bd63a3d09469)
-    (property "Reference" "C3" (at 186.69 234.9562 0)
+    (property "Reference" "C84" (at 186.69 234.9562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 186.69 237.4962 0)
@@ -9395,9 +9365,6 @@
     (pin "2" (uuid eef1cab0-1b99-48b7-b6fd-1238f8d3217a))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C3") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C84") (unit 1)
         )
@@ -9408,7 +9375,7 @@
   (symbol (lib_id "Device:C_Small") (at 307.34 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ae8761e-3f9d-4291-b25d-66d5aef7317d)
-    (property "Reference" "C46" (at 309.88 145.4213 0)
+    (property "Reference" "C112" (at 309.88 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 309.88 147.9613 0)
@@ -9424,9 +9391,6 @@
     (pin "2" (uuid e9744c28-299b-4cca-982e-a6c4a6a4663b))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C46") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C112") (unit 1)
         )
@@ -9437,7 +9401,7 @@
   (symbol (lib_id "Device:C_Small") (at 148.59 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e0207c1-56d4-4f6d-90ca-57dabea7b55f)
-    (property "Reference" "C40" (at 151.13 80.6513 0)
+    (property "Reference" "C80" (at 151.13 80.6513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 151.13 83.1913 0)
@@ -9453,9 +9417,6 @@
     (pin "2" (uuid d6c5ac10-ec27-4b00-a561-c112d70b3259))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C40") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C80") (unit 1)
         )
@@ -9466,7 +9427,7 @@
   (symbol (lib_id "Device:C_Small") (at 308.61 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ea95e29-14fb-4e60-96a9-4cf786e500d6)
-    (property "Reference" "C46" (at 311.15 50.1713 0)
+    (property "Reference" "C113" (at 311.15 50.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 311.15 52.7113 0)
@@ -9482,9 +9443,6 @@
     (pin "2" (uuid 9b960af7-4e89-4f76-b48b-faceb5bc44e5))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C46") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C113") (unit 1)
         )
@@ -9495,7 +9453,7 @@
   (symbol (lib_id "Device:C_Small") (at 243.84 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 506583e8-62d2-49ca-9fca-531aff0c44aa)
-    (property "Reference" "C42" (at 246.38 145.4213 0)
+    (property "Reference" "C96" (at 246.38 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 246.38 147.9613 0)
@@ -9511,9 +9469,6 @@
     (pin "2" (uuid b9f93d09-fec9-4678-970d-0b7ddba8fee2))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C42") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C96") (unit 1)
         )
@@ -9524,7 +9479,7 @@
   (symbol (lib_id "Device:C_Small") (at 295.91 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 528b7f32-78ef-4097-b1cf-5e4f7dc90183)
-    (property "Reference" "C44" (at 298.45 50.1713 0)
+    (property "Reference" "C109" (at 298.45 50.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 298.45 52.7113 0)
@@ -9540,9 +9495,6 @@
     (pin "2" (uuid 9d342605-59b1-41f4-a3e1-9aac246a00c5))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C44") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C109") (unit 1)
         )
@@ -9553,7 +9505,7 @@
   (symbol (lib_id "Device:C_Small") (at 270.51 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5958cdd2-2354-4c18-9aaf-c747ad43545e)
-    (property "Reference" "C40" (at 273.05 50.1713 0)
+    (property "Reference" "C103" (at 273.05 50.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 273.05 52.7113 0)
@@ -9569,9 +9521,6 @@
     (pin "2" (uuid 5c1c773a-a0cb-4f02-a263-f386d7f7c26e))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C40") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C103") (unit 1)
         )
@@ -10455,7 +10404,7 @@
   (symbol (lib_id "Device:C_Small") (at 209.55 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6847ecf0-47e0-44d2-aa5b-a20966c655dc)
-    (property "Reference" "C6" (at 212.09 234.9562 0)
+    (property "Reference" "C89" (at 212.09 234.9562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 212.09 237.4962 0)
@@ -10471,9 +10420,6 @@
     (pin "2" (uuid 38505194-d6bf-45ff-a9cd-8b93f1a00e7e))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C6") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C89") (unit 1)
         )
@@ -10484,7 +10430,7 @@
   (symbol (lib_id "Device:C_Small") (at 374.65 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b53a65a-3218-4d2c-b4fe-d1b5c9cd62b9)
-    (property "Reference" "C27" (at 377.19 235.5913 0)
+    (property "Reference" "C124" (at 377.19 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 377.19 238.1313 0)
@@ -10500,9 +10446,6 @@
     (pin "2" (uuid c8744aaa-f1c9-45e5-825b-bd6a4a0cd80f))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C27") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C124") (unit 1)
         )
@@ -10513,7 +10456,7 @@
   (symbol (lib_id "Device:C_Small") (at 387.35 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bdc3142-e8a5-40f1-a933-1fd91e07da01)
-    (property "Reference" "C30" (at 389.89 235.5913 0)
+    (property "Reference" "C126" (at 389.89 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 389.89 238.1313 0)
@@ -10529,9 +10472,6 @@
     (pin "2" (uuid 9be918f7-46cf-48c5-ba9f-eb0bca811760))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C30") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C126") (unit 1)
         )
@@ -10542,7 +10482,7 @@
   (symbol (lib_id "Device:C_Small") (at 294.64 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bee73ca-7c1f-4543-831d-6cf594c83d90)
-    (property "Reference" "C38" (at 297.18 145.4213 0)
+    (property "Reference" "C108" (at 297.18 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 297.18 147.9613 0)
@@ -10558,9 +10498,6 @@
     (pin "2" (uuid 712db479-9bc2-42e5-95d1-a3813816d614))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C38") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C108") (unit 1)
         )
@@ -10571,7 +10508,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cc94283-94aa-4041-9dd7-95ecc679c652)
-    (property "Reference" "C34" (at 113.03 80.6513 0)
+    (property "Reference" "C77" (at 113.03 80.6513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (at 113.03 83.1913 0)
@@ -10587,9 +10524,6 @@
     (pin "2" (uuid 4457297c-4374-4c9c-9205-77b529cd5996))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C34") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C77") (unit 1)
         )
@@ -10600,7 +10534,7 @@
   (symbol (lib_id "Device:C_Small") (at 283.21 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dfd9b9f-caba-4690-9d5b-ccf19a0cd556)
-    (property "Reference" "C42" (at 285.75 50.1713 0)
+    (property "Reference" "C106" (at 285.75 50.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 285.75 52.7113 0)
@@ -10616,9 +10550,6 @@
     (pin "2" (uuid 8d4c4262-18bd-47cb-b3e3-01d4f760904f))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C42") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C106") (unit 1)
         )
@@ -11502,7 +11433,7 @@
   (symbol (lib_id "Device:C_Small") (at 123.19 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f618db9-1b7e-4a4a-97b8-20b5a483ab1f)
-    (property "Reference" "C36" (at 125.73 80.6513 0)
+    (property "Reference" "C78" (at 125.73 80.6513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 125.73 83.1913 0)
@@ -11518,9 +11449,6 @@
     (pin "2" (uuid 98795d2b-49ef-4aee-80ee-99cb22bfbc11))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C36") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C78") (unit 1)
         )
@@ -11531,7 +11459,7 @@
   (symbol (lib_id "Device:C_Small") (at 260.35 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80424445-4511-4f79-aa6a-72ae65b35232)
-    (property "Reference" "C6" (at 262.89 234.9562 0)
+    (property "Reference" "C101" (at 262.89 234.9562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 262.89 237.4962 0)
@@ -11547,9 +11475,6 @@
     (pin "2" (uuid 8ca65831-b584-4079-9389-406625ce280d))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C6") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C101") (unit 1)
         )
@@ -11560,7 +11485,7 @@
   (symbol (lib_id "Device:C_Small") (at 361.95 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 820d607a-979f-451b-a84d-42b189756e9c)
-    (property "Reference" "C27" (at 364.49 235.5913 0)
+    (property "Reference" "C122" (at 364.49 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 364.49 238.1313 0)
@@ -11576,9 +11501,6 @@
     (pin "2" (uuid dc9a0d8b-5e06-46ee-8fb0-5ea4d1d66d02))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C27") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C122") (unit 1)
         )
@@ -11589,7 +11511,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 97.79 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88675e15-9d4b-4f03-818b-5b178dc7d7e5)
-    (property "Reference" "#PWR046" (at 97.79 91.44 0)
+    (property "Reference" "#PWR047" (at 97.79 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 90.17 0)
@@ -11605,7 +11527,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -11614,7 +11536,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 77.47 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90708802-d7e6-4e44-a973-cdd4cb88b8d0)
-    (property "Reference" "#PWR017" (at 77.47 266.7 0)
+    (property "Reference" "#PWR046" (at 77.47 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 77.47 265.43 0)
@@ -11630,7 +11552,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -11639,7 +11561,7 @@
   (symbol (lib_id "Device:C_Small") (at 193.04 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 917a55ad-deaa-4e68-9b4c-32362414eb87)
-    (property "Reference" "C34" (at 195.58 145.4213 0)
+    (property "Reference" "C86" (at 195.58 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 195.58 147.9613 0)
@@ -11655,9 +11577,6 @@
     (pin "2" (uuid c7fb0139-100b-425c-b171-8b4776a71b09))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C34") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C86") (unit 1)
         )
@@ -11668,7 +11587,7 @@
   (symbol (lib_id "Device:C_Small") (at 336.55 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94e9a762-4af4-406b-b052-0a68e7595f3b)
-    (property "Reference" "C21" (at 339.09 235.5913 0)
+    (property "Reference" "C118" (at 339.09 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 339.09 238.1313 0)
@@ -11684,9 +11603,6 @@
     (pin "2" (uuid 6e8486a1-6ff5-4e19-8978-e9909c5b4f56))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C21") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C118") (unit 1)
         )
@@ -11697,7 +11613,7 @@
   (symbol (lib_id "Device:C_Small") (at 173.99 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96669882-d405-4682-9ef1-3c30717c02df)
-    (property "Reference" "C44" (at 176.53 80.6513 0)
+    (property "Reference" "C82" (at 176.53 80.6513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 176.53 83.1913 0)
@@ -11713,9 +11629,6 @@
     (pin "2" (uuid 5aee9aeb-aa48-4e38-af36-cd132e32ecb2))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C44") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C82") (unit 1)
         )
@@ -11726,7 +11639,7 @@
   (symbol (lib_id "Device:C_Small") (at 269.24 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9aca5ab3-7689-4d84-91c6-7b5cd4124257)
-    (property "Reference" "C38" (at 271.78 145.4213 0)
+    (property "Reference" "C102" (at 271.78 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 271.78 147.9613 0)
@@ -11742,9 +11655,6 @@
     (pin "2" (uuid ba8b6340-bdbf-4602-a68a-869c99a6711f))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C38") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C102") (unit 1)
         )
@@ -11755,7 +11665,7 @@
   (symbol (lib_id "Device:C_Small") (at 245.11 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ec84c68-d417-4ae1-a9e8-90e2a798e1af)
-    (property "Reference" "C36" (at 247.65 50.1713 0)
+    (property "Reference" "C97" (at 247.65 50.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 247.65 52.7113 0)
@@ -11771,9 +11681,6 @@
     (pin "2" (uuid c9ff7d1b-9239-49f3-a163-9d560fbcec00))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C36") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C97") (unit 1)
         )
@@ -11784,7 +11691,7 @@
   (symbol (lib_id "Device:C_Small") (at 186.69 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9f0c4459-250f-4711-b334-c04f9a80ae94)
-    (property "Reference" "C46" (at 189.23 80.6513 0)
+    (property "Reference" "C85" (at 189.23 80.6513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 189.23 83.1913 0)
@@ -11800,9 +11707,6 @@
     (pin "2" (uuid e3585870-2d3f-4f44-8d08-8d76de4ea657))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C46") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C85") (unit 1)
         )
@@ -12686,7 +12590,7 @@
   (symbol (lib_id "Device:C_Small") (at 281.94 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a2d3b909-aba1-4070-9a86-80293f1669fb)
-    (property "Reference" "C44" (at 284.48 145.4213 0)
+    (property "Reference" "C105" (at 284.48 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 284.48 147.9613 0)
@@ -12702,9 +12606,6 @@
     (pin "2" (uuid 8c47f6a4-debd-4dfb-95e7-01c137d46d36))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C44") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C105") (unit 1)
         )
@@ -12715,7 +12616,7 @@
   (symbol (lib_id "Device:C_Small") (at 222.25 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3aa30c4-8ec5-4c42-bc2d-5e8ff39f56f6)
-    (property "Reference" "C3" (at 224.79 234.9562 0)
+    (property "Reference" "C92" (at 224.79 234.9562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 224.79 237.4962 0)
@@ -12731,9 +12632,6 @@
     (pin "2" (uuid 34c04f7f-2efe-4b83-a9fd-196497f4ce67))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C3") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C92") (unit 1)
         )
@@ -12744,7 +12642,7 @@
   (symbol (lib_id "Device:C_Small") (at 135.89 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a783db15-c028-4240-8d38-9a541a3ea986)
-    (property "Reference" "C38" (at 138.43 80.6513 0)
+    (property "Reference" "C79" (at 138.43 80.6513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 138.43 83.1913 0)
@@ -12760,9 +12658,6 @@
     (pin "2" (uuid 6e8cb020-1944-440c-b11a-ebcba5312865))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C38") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C79") (unit 1)
         )
@@ -12773,7 +12668,7 @@
   (symbol (lib_id "Device:C_Small") (at 180.34 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad6cddfa-20ac-4302-bd59-0b527651a3de)
-    (property "Reference" "C32" (at 182.88 145.4213 0)
+    (property "Reference" "C83" (at 182.88 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 182.88 147.9613 0)
@@ -12789,9 +12684,6 @@
     (pin "2" (uuid 12281598-914d-41f4-818a-f55901dba61e))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C83") (unit 1)
         )
@@ -12802,7 +12694,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 135.89 260.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4a8906b-595a-451d-9a48-b8f27a8ba3bf)
-    (property "Reference" "#PWR019" (at 135.89 266.7 0)
+    (property "Reference" "#PWR049" (at 135.89 266.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 265.43 0)
@@ -12818,7 +12710,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -12827,7 +12719,7 @@
   (symbol (lib_id "Device:C_Small") (at 205.74 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b77d2ac6-ebe3-4552-b6d6-770c1cace0e2)
-    (property "Reference" "C34" (at 208.28 145.4213 0)
+    (property "Reference" "C88" (at 208.28 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 208.28 147.9613 0)
@@ -12843,9 +12735,6 @@
     (pin "2" (uuid b73b65db-6c13-4a2c-9f9e-bb1ade82f25c))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C34") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C88") (unit 1)
         )
@@ -12856,7 +12745,7 @@
   (symbol (lib_id "Device:C_Small") (at 218.44 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b86ebf8c-1071-4441-9ef5-a6e8cd72504e)
-    (property "Reference" "C36" (at 220.98 145.4213 0)
+    (property "Reference" "C90" (at 220.98 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 220.98 147.9613 0)
@@ -12872,9 +12761,6 @@
     (pin "2" (uuid 70557957-8e66-493b-b78e-2b772ec1c173))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C36") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C90") (unit 1)
         )
@@ -12885,7 +12771,7 @@
   (symbol (lib_id "Device:C_Small") (at 196.85 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba5999fd-f3ed-4b55-8333-0fc760f62801)
-    (property "Reference" "C6" (at 199.39 234.9562 0)
+    (property "Reference" "C87" (at 199.39 234.9562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 199.39 237.4962 0)
@@ -12901,9 +12787,6 @@
     (pin "2" (uuid d5c1e11c-5f74-4ee5-9ad9-dcb17422d3ce))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C6") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C87") (unit 1)
         )
@@ -12914,7 +12797,7 @@
   (symbol (lib_id "Device:C_Small") (at 356.87 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb3f7cb1-1866-4f4f-96e8-7d253ed35830)
-    (property "Reference" "C40" (at 359.41 89.5413 0)
+    (property "Reference" "C121" (at 359.41 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 359.41 92.0813 0)
@@ -12930,9 +12813,6 @@
     (pin "2" (uuid 0a4eb88a-a12a-44ec-83d0-9b8704d519fd))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C40") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C121") (unit 1)
         )
@@ -12943,7 +12823,7 @@
   (symbol (lib_id "Device:C_Small") (at 256.54 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb89f62b-f32b-480b-9db4-c754b769d7f8)
-    (property "Reference" "C44" (at 259.08 145.4213 0)
+    (property "Reference" "C99" (at 259.08 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 259.08 147.9613 0)
@@ -12959,9 +12839,6 @@
     (pin "2" (uuid 5fb47900-b87f-4a70-b9c6-c710be234dec))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C44") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C99") (unit 1)
         )
@@ -12972,7 +12849,7 @@
   (symbol (lib_id "Device:C_Small") (at 285.75 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf476741-7fd7-4d50-8981-abbe7110f820)
-    (property "Reference" "C27" (at 288.29 235.5913 0)
+    (property "Reference" "C107" (at 288.29 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 288.29 238.1313 0)
@@ -12988,9 +12865,6 @@
     (pin "2" (uuid 1565bb47-9eca-42ac-9b15-4d90e674d231))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C27") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C107") (unit 1)
         )
@@ -13001,7 +12875,7 @@
   (symbol (lib_id "Device:C_Small") (at 273.05 236.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c15f1bb8-6453-4caa-b6b9-9c452ea3ae8f)
-    (property "Reference" "C36" (at 275.59 235.5913 0)
+    (property "Reference" "C104" (at 275.59 235.5913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (at 275.59 238.1313 0)
@@ -13017,9 +12891,6 @@
     (pin "2" (uuid 88dd729f-6ec2-400a-94cb-8e012c17f5d0))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C36") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C104") (unit 1)
         )
@@ -13030,7 +12901,7 @@
   (symbol (lib_id "Device:C_Small") (at 369.57 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7dcf875-fbd4-47c5-b500-8209c81d4b32)
-    (property "Reference" "C42" (at 372.11 89.5413 0)
+    (property "Reference" "C123" (at 372.11 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 372.11 92.0813 0)
@@ -13046,9 +12917,6 @@
     (pin "2" (uuid 0f6f2f37-f66f-423c-8cbf-3276dcf0b371))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C42") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C123") (unit 1)
         )
@@ -13932,7 +13800,7 @@
   (symbol (lib_id "Device:C_Small") (at 318.77 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2e67221-4020-475e-9245-74c1e18c2afb)
-    (property "Reference" "C34" (at 321.31 89.5413 0)
+    (property "Reference" "C115" (at 321.31 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 321.31 92.0813 0)
@@ -13948,9 +13816,6 @@
     (pin "2" (uuid 542b394e-0cbe-4009-8775-810c3b02f5e3))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C34") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C115") (unit 1)
         )
@@ -13961,7 +13826,7 @@
   (symbol (lib_id "Device:C_Small") (at 219.71 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3672ecf-9d1d-46ce-9184-aa29ee1182b2)
-    (property "Reference" "C32" (at 222.25 50.1713 0)
+    (property "Reference" "C91" (at 222.25 50.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 222.25 52.7113 0)
@@ -13977,9 +13842,6 @@
     (pin "2" (uuid c06609cf-7a66-4b3c-96f4-2d0104babdfc))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C91") (unit 1)
         )
@@ -13990,7 +13852,7 @@
   (symbol (lib_id "Device:C_Small") (at 232.41 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d68bdb29-73df-4dae-83ce-ee29c85c3cc6)
-    (property "Reference" "C34" (at 234.95 50.1713 0)
+    (property "Reference" "C94" (at 234.95 50.1713 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10µF" (at 234.95 52.7113 0)
@@ -14006,9 +13868,6 @@
     (pin "2" (uuid 7e954fef-c764-479c-bab0-0c0577f4618d))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C34") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C94") (unit 1)
         )
@@ -14019,7 +13878,7 @@
   (symbol (lib_id "Device:C_Small") (at 97.79 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8d8fb5c-b068-4bdd-9d2f-feacc2d8b0be)
-    (property "Reference" "C32" (at 100.33 80.6513 0)
+    (property "Reference" "C76" (at 100.33 80.6513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 100.33 83.1913 0)
@@ -14035,9 +13894,6 @@
     (pin "2" (uuid 614f5b41-1a3b-46e4-9a58-0d78f2ded801))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C76") (unit 1)
         )
@@ -14048,7 +13904,7 @@
   (symbol (lib_name "GND_1") (lib_id "power:GND") (at 184.15 240.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2f34bd4-48ad-400b-9339-9bac801ec33d)
-    (property "Reference" "#PWR044" (at 184.15 246.38 0)
+    (property "Reference" "#PWR051" (at 184.15 246.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 245.11 0)
@@ -14064,7 +13920,7 @@
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -14946,7 +14802,7 @@
   (symbol (lib_id "Device:C_Small") (at 161.29 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e900a6c5-28c1-45f5-ba7e-e3be3c2c0230)
-    (property "Reference" "C42" (at 163.83 80.6513 0)
+    (property "Reference" "C81" (at 163.83 80.6513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 163.83 83.1913 0)
@@ -14962,9 +14818,6 @@
     (pin "2" (uuid efa36cc6-4d1c-46b0-b3af-5c4584f07ce9))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C42") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C81") (unit 1)
         )
@@ -14975,7 +14828,7 @@
   (symbol (lib_id "Device:C_Small") (at 231.14 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e925553d-cae3-433b-a2ff-be070e9cf934)
-    (property "Reference" "C40" (at 233.68 145.4213 0)
+    (property "Reference" "C93" (at 233.68 145.4213 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 233.68 147.9613 0)
@@ -14991,9 +14844,6 @@
     (pin "2" (uuid 4ab0ec60-b6e0-4970-95f8-78b800b988e2))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C40") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C93") (unit 1)
         )
@@ -15004,7 +14854,7 @@
   (symbol (lib_id "Device:C_Small") (at 382.27 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec020ab0-d323-44b1-adff-85f0d7bee9ab)
-    (property "Reference" "C44" (at 384.81 89.5413 0)
+    (property "Reference" "C125" (at 384.81 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 384.81 92.0813 0)
@@ -15020,9 +14870,6 @@
     (pin "2" (uuid 89cc6c71-bb4d-412f-b489-192df8326922))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C44") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C125") (unit 1)
         )
@@ -15033,7 +14880,7 @@
   (symbol (lib_id "Device:C_Small") (at 306.07 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7b336d0-a4ec-4009-9618-1bcec74fb8f1)
-    (property "Reference" "C32" (at 308.61 89.5413 0)
+    (property "Reference" "C111" (at 308.61 89.5413 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22µF" (at 308.61 92.0813 0)
@@ -15049,9 +14896,6 @@
     (pin "2" (uuid 2eae0d36-7b4e-463a-a7f8-dad10525f1a3))
     (instances
       (project "SOM with RK3399, 4Gb LPDDR4, Wi-Fi, Bluetooth, PMIC, Ethernet, EMMc"
-        (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/37969e04-0578-442c-acd0-a0a26625ce90"
-          (reference "C32") (unit 1)
-        )
         (path "/2bb52b27-d806-44bf-ba3c-f531779e1c0f/135bdf1b-bc1d-43b5-a004-9dd0f9e1e70b/fa12c0f4-e580-454c-bd01-df32ffe281bd"
           (reference "C111") (unit 1)
         )
