@@ -1,0 +1,29 @@
+|HEADER=Protel for Windows - Schematic Capture Binary File Version 5.0|Weight=28|MinorVersion=2|UniqueID=DNIHOVKF
+|RECORD=31|FontIdCount=1|Size1=10|FontName1=Times New Roman|UseMBCS=T|IsBOC=T|HotSpotGridOn=T|HotSpotGridSize=4|SystemFont=1|BorderOn=T|TitleBlockOn=T|SheetNumberSpaceSize=12|AreaColor=16317695|SnapGridOn=T|SnapGridSize=10|VisibleGridOn=T|VisibleGridSize=10|CustomX=1500|CustomY=950|CustomXZones=6|CustomYZones=4|CustomMarginWidth=20|Display_Unit=0
+|RECORD=41|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=CurrentTime|ReadOnlyState=1|UniqueID=DFHHEWEH
+|RECORD=41|IndexInSheet=1|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=CurrentDate|ReadOnlyState=1|UniqueID=EAIJCSUM
+|RECORD=41|IndexInSheet=2|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Time|ReadOnlyState=1|UniqueID=UUUJROZL
+|RECORD=41|IndexInSheet=3|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Date|ReadOnlyState=1|UniqueID=AAGQXJEM
+|RECORD=41|IndexInSheet=4|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=DocumentFullPathAndName|ReadOnlyState=1|UniqueID=PIFRMKGU
+|RECORD=41|IndexInSheet=5|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=DocumentName|ReadOnlyState=1|UniqueID=KGHIZXQK
+|RECORD=41|IndexInSheet=6|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=ModifiedDate|ReadOnlyState=1|UniqueID=SVMTBBOP
+|RECORD=41|IndexInSheet=7|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=ApprovedBy|ReadOnlyState=1|UniqueID=GVGEPOKV
+|RECORD=41|IndexInSheet=8|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=CheckedBy|ReadOnlyState=1|UniqueID=VWTTNDAK
+|RECORD=41|IndexInSheet=9|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Author|ReadOnlyState=1|UniqueID=NZZKGQMD
+|RECORD=41|IndexInSheet=10|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=CompanyName|ReadOnlyState=1|UniqueID=KVXBXKKO
+|RECORD=41|IndexInSheet=11|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=DrawnBy|ReadOnlyState=1|UniqueID=UPLRDCEV
+|RECORD=41|IndexInSheet=12|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Engineer|ReadOnlyState=1|UniqueID=WLMCEXXP
+|RECORD=41|IndexInSheet=13|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Organization|ReadOnlyState=1|UniqueID=VBFBCDIP
+|RECORD=41|IndexInSheet=14|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Address1|ReadOnlyState=1|UniqueID=IDTTRIYL
+|RECORD=41|IndexInSheet=15|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Address2|ReadOnlyState=1|UniqueID=LFYXSJGK
+|RECORD=41|IndexInSheet=16|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Address3|ReadOnlyState=1|UniqueID=VDOVEKYN
+|RECORD=41|IndexInSheet=17|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Address4|ReadOnlyState=1|UniqueID=YHGVEJLR
+|RECORD=41|IndexInSheet=18|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Title|ReadOnlyState=1|UniqueID=HVIAJKEN
+|RECORD=41|IndexInSheet=19|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=DocumentNumber|ReadOnlyState=1|UniqueID=NAQZYZXL
+|RECORD=41|IndexInSheet=20|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Revision|ReadOnlyState=1|UniqueID=VUFZPNKY
+|RECORD=41|IndexInSheet=21|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=SheetNumber|ReadOnlyState=1|UniqueID=FFVJCDHC
+|RECORD=41|IndexInSheet=22|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=SheetTotal|ReadOnlyState=1|UniqueID=THQWAGBK
+|RECORD=41|IndexInSheet=23|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Rule|ReadOnlyState=1|UniqueID=YAHDTZPY
+|RECORD=41|IndexInSheet=24|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=ImagePath|ReadOnlyState=1|UniqueID=KUZJDMBT
+|RECORD=41|IndexInSheet=25|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=ProjectName|ReadOnlyState=1|UniqueID=KKVDPVLJ
+|RECORD=41|IndexInSheet=26|OwnerPartId=-1|Color=8388608|FontID=1|IsHidden=T|Text=*|Name=Application_BuildNumber|ReadOnlyState=1|UniqueID=TOFRJALP

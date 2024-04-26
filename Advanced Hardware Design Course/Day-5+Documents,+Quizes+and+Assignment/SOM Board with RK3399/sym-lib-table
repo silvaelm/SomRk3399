@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "[1]-LPDDR4 SDRAM-1-SchDoc-rescue")(type "KiCad")(uri "${KIPRJMOD}/[1]-LPDDR4 SDRAM-1-SchDoc-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "[2]-LPDDR4 SDRAM-2-SchDoc-rescue")(type "KiCad")(uri "${KIPRJMOD}/[2]-LPDDR4 SDRAM-2-SchDoc-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "[3]-EMMC Chip-SchDoc-rescue")(type "KiCad")(uri "${KIPRJMOD}/[3]-EMMC Chip-SchDoc-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "[4]-WIFI Module WF60-SchDoc-rescue")(type "KiCad")(uri "${KIPRJMOD}/[4]-WIFI Module WF60-SchDoc-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "[7]-RK3399 SDRAM Page-SchDoc-rescue")(type "KiCad")(uri "${KIPRJMOD}/[7]-RK3399 SDRAM Page-SchDoc-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "[6]-Power Pins Page of RK3399-SchDoc-rescue")(type "KiCad")(uri "${KIPRJMOD}/[6]-Power Pins Page of RK3399-SchDoc-rescue.kicad_sym")(options "")(descr ""))
+)

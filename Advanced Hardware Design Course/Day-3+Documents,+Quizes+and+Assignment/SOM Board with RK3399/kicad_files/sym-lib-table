@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Sheet1-SchDoc-rescue")(type "KiCad")(uri "${KIPRJMOD}/Sheet1-SchDoc-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "Sheet2-SchDoc-rescue")(type "KiCad")(uri "${KIPRJMOD}/Sheet2-SchDoc-rescue.kicad_sym")(options "")(descr ""))
+)

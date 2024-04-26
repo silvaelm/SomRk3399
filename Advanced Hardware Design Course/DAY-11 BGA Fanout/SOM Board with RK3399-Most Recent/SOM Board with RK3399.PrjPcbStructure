@@ -1,0 +1,21 @@
+Record=TopLevelDocument|FileName=[0]- Block Diagram.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[0]-Power Blocks Diagram.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[1]-Power Pins Page of RK3399.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[2]-PMUIO_BLOCK.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[3]-RK3399_EMMC_ADC_PCIE.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[4]-RK3399 EDP_CSI_HDMI.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[5]-USB2, TYPEC, USIC.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[6]-MIPI-CSI_GPIOs and I2C.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[7]-RGMII_SDIO_SPI_GPIOs etc.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[8]-RK3399 SDRAM Page.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[9]-LPDDR4 SDRAM-1.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[10]-LPDDR4 SDRAM-2.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[11]-EMMC Chip.SchDoc|SheetNumber=13
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[12]-WIFI Module WF60.SchDoc|SheetNumber=14
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[13]-TYPEC0_PROG.SchDoc|SheetNumber=15
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[14]-RGMII_PHY.SchDoc|SheetNumber=16
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[15]-Push_Button_&_SYS_LED.SchDoc|SheetNumber=17
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[16]-SP1_TYPEC_PWR_IN.SchDoc|SheetNumber=18
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[17]-SP2_BUCKs_GPU_LOG_CPU-B.SchDoc|SheetNumber=19
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[18]-SP3_PMIC_BLOCK.SchDoc|SheetNumber=20
+Record=NoMainPathDocument|SourceDocument=[0]- Block Diagram.SchDoc|FileName=[19]-DDR4_260_PIN_CON.SchDoc|SheetNumber=21

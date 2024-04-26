@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="640" height="520" viewBox="0, 0, 640, 520">
+  <g id="Layer_1">
+    <path d="M40.618,223 L184.618,223 L184.618,8 L401.618,8 L401.618,223 L616.618,223" fill-opacity="0" stroke="#DE787A" stroke-width="4"/>
+    <path d="M40.618,513 L184.618,513 L220.618,298 L399.618,298 L437.618,513 L616.618,513" fill-opacity="0" stroke="#8EA5C5" stroke-width="4"/>
+    <path d="M184.618,234 L184.618,466" fill-opacity="0" stroke="#000000" stroke-width="3" stroke-dasharray="30,12,3,12"/>
+    <path d="M400.618,234 L400.618,513" fill-opacity="0" stroke="#000000" stroke-width="3" stroke-dasharray="30,12,3,12"/>
+    <text transform="matrix(1, 0, 0, 1, 94.5, 115)">
+      <tspan x="-42.678" y="-40" font-family="Avenir-Medium" font-size="36" fill="#656565">Input </tspan>
+      <tspan x="-54.684" y="9" font-family="Avenir-Medium" font-size="36" fill="#656565">square </tspan>
+      <tspan x="-42.012" y="58" font-family="Avenir-Medium" font-size="36" fill="#656565">wave</tspan>
+    </text>
+    <text transform="matrix(1, 0, 0, 1, 525.5, 405)">
+      <tspan x="-59.31" y="-40" font-family="Avenir-Medium" font-size="36" fill="#656565">Output </tspan>
+      <tspan x="-80.964" y="9" font-family="Avenir-Medium" font-size="36" fill="#656565">limited by </tspan>
+      <tspan x="-73.656" y="58" font-family="Avenir-Medium" font-size="36" fill="#656565">slew rate</tspan>
+    </text>
+  </g>
+</svg>
